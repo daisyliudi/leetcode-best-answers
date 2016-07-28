@@ -4,6 +4,9 @@ Pdf documents with three top voted answers in the discussion forum for each prob
 
 ## Note
 
+**NOTE**: the discussion forum has changed its layout and many pdf files actually don't have answers...
+A fix is on the way... Stay tuned.
+
 All answers in the document are attributed to their authors. If you see your answers in there and would rather your answer not be included, send me a note at gnijuohz@gmail.com.
 
 
