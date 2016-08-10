@@ -2,7 +2,7 @@
 
 ## How
 
-Selenium driver is used to fetch the urls of top voted answers for each question. `urls.txt` is generated. `answers.py` parses this file and write answers into a MongoDB. You can use `urls.txt` to do your own thing. Its format is:
+Selenium driver is used to fetch the urls of top voted answers for each question. `urls.txt` is generated. `answers.py` parses this file and write answers into a MongoDB collection. You can use `urls.txt` to do your own thing. Its format is:
 
 ```
 question_num:number_of_answer_count_follows_this_line
@@ -16,8 +16,7 @@ answer_url
 
 ## Improvement
 
-Selenium driver is used to get `urls.txt` because the discussion forum does not order the answers by votes by default. To do that you need to log in and choose that option.  
-Since the `requests`
+Selenium driver is used to get `urls.txt` because the discussion forum does not order the answers by votes by default. To do that you need to log in and choose that option. Since that option will be remembered by the server, it's not necessary to use the driver anymore. `requests` can be used instead.
 
 ## Note
 
