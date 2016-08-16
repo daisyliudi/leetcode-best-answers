@@ -1,3 +1,5 @@
+*.pyc
 fetch.py
 push_to_github.sh
 .ipynb_checkpoints
+config.py*

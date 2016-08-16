@@ -43,7 +43,7 @@ def get_answers():
     started = False
     starting_question_num = 0
 
-    with open('urls.txt') as f:
+    with open('latest.txt') as f:
         lines = f.readlines()
         for line in lines:
             tried_again = False
