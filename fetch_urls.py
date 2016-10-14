@@ -112,7 +112,7 @@ def start_driver():
 
     with open('latest.txt', 'w') as urls_file:
         for index, link in enumerate(links):
-            if index < 375:
+            if index < 398:
                 continue
             answer_urls = get_answer_urls(driver, link)
             answer_count = len(answer_urls)
